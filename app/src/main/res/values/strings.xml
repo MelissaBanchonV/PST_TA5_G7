@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">AMST7</string>
+    <string name="nombre">Nombre:</string>
+    <string name="perfil">Perfil</string>
+    <string name="exit">exit</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="correo">Correo:</string>
+    <string name="celular">Celular:</string>
+    <string name="favorito">Favorito:</string>
+    <string name="textview">TextView</string>
+    <string name="avatar">avatar</string>
+    <string name="nombres">Nombres</string>
 </resources>
