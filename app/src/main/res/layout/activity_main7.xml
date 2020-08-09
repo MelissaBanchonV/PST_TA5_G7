@@ -13,18 +13,12 @@
     <TextView
         android:id="@+id/categoriaEncabezado"
         android:layout_width="match_parent"
-        android:layout_height="37dp"
+        android:layout_height="wrap_content"
         android:background="#D17575"
         android:gravity="center_vertical"
         android:text="@string/categor_as"
         android:textSize="30sp"
         android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -37,12 +31,13 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginTop="?attr/listPreferredItemPaddingEnd">
 
                 <ImageButton
                     android:id="@+id/imageButton2"
                     android:layout_width="match_parent"
-                    android:layout_height="241dp"
+                    android:layout_height="272dp"
                     android:contentDescription="@string/romantico"
                     android:src="@drawable/lv_20140813_lv_fotos_d_54413027985_992x558_lavanguardia_web" />
 
@@ -51,6 +46,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/almendra_sc"
                     android:gravity="center_horizontal"
                     android:text="@string/rom_ntico"
                     android:textColor="#FFFFFF"
@@ -61,12 +57,14 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginTop="?attr/listPreferredItemPaddingStart">
 
                 <ImageButton
                     android:id="@+id/imageButton4"
                     android:layout_width="wrap_content"
-                    android:layout_height="248dp"
+                    android:layout_height="253dp"
+                    android:background="@drawable/estilo_borde"
                     android:contentDescription="@string/it"
                     android:src="@drawable/it" />
 
@@ -75,6 +73,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/caesar_dressing"
                     android:text="@string/terror"
                     android:textColor="#FFFFFF"
                     android:textSize="30sp"
@@ -84,20 +83,23 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginTop="?attr/listPreferredItemPaddingStart">
 
                 <ImageButton
                     android:id="@+id/imageButton8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="217dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="238dp"
+                    android:background="#FFFFFF"
                     android:contentDescription="@string/quijote"
-                    android:src="@drawable/yellowshadow2_1_400x300" />
+                    android:src="@drawable/quijotee" />
 
                 <TextView
                     android:id="@+id/textView8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-medium"
                     android:text="@string/aventura"
                     android:textColor="#131313"
                     android:textSize="24sp"
@@ -107,12 +109,13 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginTop="?attr/listPreferredItemPaddingStart">
 
                 <ImageButton
                     android:id="@+id/imageButton12"
                     android:layout_width="match_parent"
-                    android:layout_height="216dp"
+                    android:layout_height="211dp"
                     android:contentDescription="@string/juvenil"
                     android:src="@drawable/eleanorparkaaa" />
 
@@ -121,6 +124,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-smallcaps"
                     android:text="@string/juvenilText"
                     android:textColor="#000000"
                     android:textSize="24sp"
