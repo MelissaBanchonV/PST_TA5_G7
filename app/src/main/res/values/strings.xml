@@ -8,4 +8,6 @@
     <string name="ingrese_contrase_a">Ingrese Contraseña</string>
     <string name="ingresar">INGRESAR</string>
     <string name="registrarse">REGISTRARSE</string>
+    <string name="registrate">Registrate</string>
+    <string name="confirmar">Confirmar</string>
 </resources>
