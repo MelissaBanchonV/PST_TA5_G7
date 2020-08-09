@@ -3,6 +3,7 @@ package com.example.amst7;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -11,7 +12,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class IngresoBaseDeDatos extends AppCompatActivity {
-
+    public static final String EXTRA_MESSAGE = "TA5";
     private EditText codigo,titulo,genero, autor, editorial, url_imagen,descripcion;
 
     @Override
