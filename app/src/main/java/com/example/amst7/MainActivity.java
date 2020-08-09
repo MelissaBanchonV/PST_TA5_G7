@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     public EditText campousuario;
     public EditText campopass;
-    AdminSQLiteOpenHelper admin=new AdminSQLiteOpenHelper(this, "datosregistro",null,1);
+    AdminSQLiteOpenHelper admin=new AdminSQLiteOpenHelper(this, "datosregistro1",null,1);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
                     campousuario.setText("");
                     campopass.setText("");
                 }
-
 
             catch(SQLException e){
                 e.printStackTrace();

@@ -18,7 +18,7 @@ import java.lang.reflect.Array;
 public class MainActivity2 extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     public EditText etnombre, etapellido, etusuarioreg, etcontraus, etcorreo, etcell, etcategoriafav;
     public String strsexo;
-    AdminSQLiteOpenHelper admin=new AdminSQLiteOpenHelper(this, "datosregistro",null,1);
+    AdminSQLiteOpenHelper admin=new AdminSQLiteOpenHelper(this, "datosregistro1",null,1);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
