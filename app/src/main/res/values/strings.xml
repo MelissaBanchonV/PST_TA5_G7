@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">AMST7</string>
+    <string name="categor_as">Categorías</string>
+    <string name="escoja_su_categor_a_favorita">Escoja su categoría favorita</string>
+    <string name="romantico">romantico</string>
+    <string name="rom_ntico">ROMÁNTICO</string>
+    <string name="prueba">prueba</string>
+    <string name="terror">TERROR</string>
+    <string name="it">it</string>
+    <string name="quijote">quijote</string>
+    <string name="aventura">AVENTURA</string>
+    <string name="juvenil">juvenil</string>
+    <string name="juvenilText">JUVENIL</string>
 </resources>
