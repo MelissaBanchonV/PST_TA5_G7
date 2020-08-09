@@ -35,14 +35,14 @@
                 android:layout_marginTop="?attr/listPreferredItemPaddingEnd">
 
                 <ImageButton
-                    android:id="@+id/imageButton2"
+                    android:id="@+id/imageRomantico"
                     android:layout_width="match_parent"
-                    android:layout_height="272dp"
+                    android:layout_height="247dp"
                     android:contentDescription="@string/romantico"
                     android:src="@drawable/lv_20140813_lv_fotos_d_54413027985_992x558_lavanguardia_web" />
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/textRomantico"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -61,15 +61,14 @@
                 android:layout_marginTop="?attr/listPreferredItemPaddingStart">
 
                 <ImageButton
-                    android:id="@+id/imageButton4"
+                    android:id="@+id/imageeTerror"
                     android:layout_width="wrap_content"
-                    android:layout_height="253dp"
-                    android:background="@drawable/estilo_borde"
+                    android:layout_height="247dp"
                     android:contentDescription="@string/it"
                     android:src="@drawable/it" />
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/textTerror"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -87,7 +86,7 @@
                 android:layout_marginTop="?attr/listPreferredItemPaddingStart">
 
                 <ImageButton
-                    android:id="@+id/imageButton8"
+                    android:id="@+id/imageAventura"
                     android:layout_width="match_parent"
                     android:layout_height="238dp"
                     android:background="#FFFFFF"
@@ -95,7 +94,7 @@
                     android:src="@drawable/quijotee" />
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/textAventura"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -113,14 +112,14 @@
                 android:layout_marginTop="?attr/listPreferredItemPaddingStart">
 
                 <ImageButton
-                    android:id="@+id/imageButton12"
+                    android:id="@+id/imageJuvenil"
                     android:layout_width="match_parent"
                     android:layout_height="211dp"
                     android:contentDescription="@string/juvenil"
                     android:src="@drawable/eleanorparkaaa" />
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/textJuvenil"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
