@@ -11,6 +11,13 @@
         android:theme="@style/AppTheme">
         <activity android:name=".IngresoBaseDeDatos"></activity>
         <activity android:name=".MainActivity5" />
+        <activity android:name=".MainActivity6">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
