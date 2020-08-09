@@ -18,6 +18,7 @@
     <string name="categoria_favorita">Categoria Favorita</string>
     <string name="usuario_de_registro">Usuario de registro</string>
     <string-array name="sexo">
+        <item>Sexo</item>
         <item>Masculino</item>
         <item>Femenino</item>
     </string-array>
