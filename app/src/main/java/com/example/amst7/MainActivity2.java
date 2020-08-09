@@ -18,6 +18,7 @@ import java.lang.reflect.Array;
 public class MainActivity2 extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     public EditText etnombre, etapellido, etusuarioreg, etcontraus, etcorreo, etcell, etcategoriafav;
     public String strsexo;
+    AdminSQLiteOpenHelper admin=new AdminSQLiteOpenHelper(this, "datosregistro",null,1);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +48,7 @@ public class MainActivity2 extends AppCompatActivity implements AdapterView.OnIt
     }
 
     public void registro(View view){
-        AdminSQLiteOpenHelper admin=new AdminSQLiteOpenHelper(this,"administracion", null, 1);
+        admin.abrir();
         SQLiteDatabase Basedatos=admin.getWritableDatabase();
         String nombre=etnombre.getText().toString();
         String apellido=etapellido.getText().toString();
@@ -61,16 +62,9 @@ public class MainActivity2 extends AppCompatActivity implements AdapterView.OnIt
         if(!nombre.isEmpty() && !apellido.isEmpty() && !userreg.isEmpty()
             && !contra.isEmpty() && !correo.isEmpty() && !celular.isEmpty()
             && !categ.isEmpty() && !sexo.isEmpty()){
-            ContentValues registro=new ContentValues();
-            registro.put("usuario",userreg);
-            registro.put("nombre",nombre);
-            registro.put("apellido",apellido);
-            registro.put("correo",correo);
-            registro.put("celular",celular);
-            registro.put("categoriafav",categ);
-            registro.put("sexo",sexo);
-
-            Basedatos.insert("usuarios", null, registro);
+            admin.insertarregistro(userreg,nombre,apellido,contra,correo,celular,categ,sexo);
+            admin.cerrar();
+            Toast.makeText(this, "REGISTRO EXITOSO", Toast.LENGTH_SHORT).show();
             etnombre.setText("");
             etapellido.setText("");
             etusuarioreg.setText("");
